@@ -45,5 +45,9 @@ async def manualidades(ctx):
 @bot.command()
 async def formas_de_no_contaminar(ctx):
     await ctx.send(f"Las formas de no contaminar son: {no_conta()}")
-
+    
+@bot.command()
+async def help_(ctx):
+    await ctx.send(help_message)
+    
 bot.run("tu token")
