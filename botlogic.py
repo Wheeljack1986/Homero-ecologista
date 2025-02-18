@@ -108,3 +108,17 @@ Alrededor de 4,000 años o más, ya que el vidrio no se degrada de forma natural
 - Madera: La madera natural puede descomponerse en 1 a 5 años; si está tratada o pintada, hasta 12–15 años.
 - Chicles: Aproximadamente 5 años.
 - Colillas de cigarrillo: Entre 2 y 12 años, según su composición."""
+
+help_message = """
+    **Lista de comandos disponibles:**
+    - `$hello` → Saluda con un mensaje.
+    - `$contaminacion` → Muestra información sobre causas de contaminación.
+    - `$reciclables` → Lista de materiales reciclables.
+    - `$no_reciclables` → Lista de materiales no reciclables.
+    - `$descomposicion` → Tiempos de descomposición de diferentes materiales.
+    - `$manualidades` → Envía una imagen con ideas de manualidades recicladas.
+    - `$formas_de_no_contaminar` → Consejos para reducir la contaminación.
+    - `$help_` → Te muestra los comandos disponibles
+    
+    ¡Usa `$` para ejecutar cualquiera de ellos!
+    """
